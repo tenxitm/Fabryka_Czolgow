@@ -58,7 +58,7 @@ class Pancerz:
         self.nowa_grubość = nowa_grubość
 
     def inf3(self):
-        print(self.wieza)
+        print(self.pancerz)
 
 
 class Calosc():                 #nie moznadziedziczyc wiecej niz jednje classy 
