@@ -1,5 +1,5 @@
 class Czolg():
-    def __init__(self) -> None:
+    def __init__(self,cena,numer_seryjny) -> None:
         self.cena
         self.numer_seryjny
         
@@ -20,15 +20,15 @@ class Dzialo():
     def inf2(self):
         print(self.kaliber)
 
-class silnik:
-    def __init__(self,silnik) -> None:
-        self.silnik = silnik
+class Silnik:
+    def __init__(self,moc) -> None:
+        self.moc = moc
     
     def zmien3(self,nowy_silnik):
-        self.silnik = float(input())
+        self.silnik = silnik
 
-    def inf3(self):
-        print(self.cecha3)
+    def inf3(self,nowy_silnik):
+        print(self.)
 
 class Element4:
     def __init__(self) -> None:
