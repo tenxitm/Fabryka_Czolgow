@@ -27,8 +27,8 @@ class Silnik:
     def zmien3(self,nowy_silnik):
         self.silnik = silnik
 
-    def inf3(self,nowy_silnik):
-        print(self.)
+    def inf3(self):
+        print(self.silnik)
 
 class Element4:
     def __init__(self) -> None:
