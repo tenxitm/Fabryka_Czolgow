@@ -1,3 +1,8 @@
+class Czolg:
+  def __init__(self,dzialo,silnik)
+    self.dzialo = dzialo
+    self.silnik = silnik
+
 class elementy_czolgu:
   def __init__(self,nazwa,numer_seryjny,cena):
     self.nazwa=nazwa
