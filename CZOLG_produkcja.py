@@ -20,12 +20,12 @@ class Dzialo():
     def inf2(self):
         print(self.kaliber)
 
-class Element3:
-    def __init__(self) -> None:
-        self.cecha3 = 1
+class silnik:
+    def __init__(self,silnik) -> None:
+        self.silnik = silnik
     
-    def zmien3(self):
-        self.cecha3 = float(input())
+    def zmien3(self,nowy_silnik):
+        self.silnik = float(input())
 
     def inf3(self):
         print(self.cecha3)
@@ -69,6 +69,6 @@ class Calosc():                 #nie moznadziedziczyc wiecej niz jednje classy
     
 x = Calosc()
 
-# x.inf()
-# x.zmien()
-# x.inf()
+x.inf()
+x.zmien()
+x.inf()
