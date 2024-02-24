@@ -10,8 +10,8 @@ class Czolg():
     def inf1(self):
         print(self.cena)
 
-class Dzialo():
-    def __init__(self) -> None:
+class Dzialo(kaliber):
+    def __init__(self,kaliber) -> None:
         self.kaliber = kaliber
     
     def zmien2(self, nowy_kaliber):
