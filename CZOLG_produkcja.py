@@ -25,30 +25,40 @@ class Silnik:
         self.moc = moc
     
     def zmien3(self,nowy_silnik):
-        self.silnik = silnik
+        self.nowy_silnik = nowy_silnik
 
     def inf3(self):
         print(self.silnik)
 
-class Element4:
-    def __init__(self) -> None:
-        self.cecha3 = 1
+class Zawieszenie:
+    def __init__(self,wysokość_zawieszenia) -> None:
+        self.wysokość_zawieszenia = wysokość_zawieszenia
     
-    def zmien3(self):
-        self.cecha3 = float(input())
+    def zmien3(self, nowe_zawieszenie):
+        self.nowe_zawieszene = nowe_zawieszenie
 
     def inf3(self):
-        print(self.cecha3)
+        print(self.zawieszenie)
 
-class Element4:
-    def __init__(self) -> None:
-        self.cecha3 = 1
+class Wieza:
+    def __init__(self,prędkość_obrotu) -> None:
+        self.prędkość_obrotu = predkość_obrotu
     
-    def zmien3(self):
-        self.cecha3 = float(input())
+    def zmien3(self,nowa_predkość):
+        self.nowa_predkość = nowa_predkość
 
     def inf3(self):
-        print(self.cecha3)
+        print(self.wieza)
+
+class Pancerz:
+    def __init__(self,grubość) -> None:
+        self.grubość = grubość
+    
+    def zmien3(self,nowa_grubość):
+        self.nowa_grubość = nowa_grubość
+
+    def inf3(self):
+        print(self.wieza)
 
 
 class Calosc():                 #nie moznadziedziczyc wiecej niz jednje classy 
@@ -72,3 +82,5 @@ x = Calosc()
 x.inf()
 x.zmien()
 x.inf()
+
+
