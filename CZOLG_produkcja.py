@@ -10,6 +10,21 @@ class Czolg():
     def inf1(self):
         print(self.cena)
 
+     def __init__(self):         #ale za ro mozna zapisac je jako obiekty
+        self.elm1 = Element1()
+        self.elm2 = Element2()
+        self.elm3 = Element3()
+    
+    def inf(self):
+        self.elm1.inf1()
+        self.elm2.inf2()
+        self.elm3.inf3()
+    
+    def zmien(self):
+        self.elm1.zmien1()
+        self.elm2.zmien2()
+        self.elm3.zmien3()
+
 class Dzialo():
     def __init__(self,kaliber) -> None:
         self.kaliber = kaliber
@@ -61,21 +76,6 @@ class Pancerz:
         print(self.pancerz)
 
 
-class Calosc():                 #nie moznadziedziczyc wiecej niz jednje classy 
-    def __init__(self):         #ale za ro mozna zapisac je jako obiekty
-        self.elm1 = Element1()
-        self.elm2 = Element2()
-        self.elm3 = Element3()
-    
-    def inf(self):
-        self.elm1.inf1()
-        self.elm2.inf2()
-        self.elm3.inf3()
-    
-    def zmien(self):
-        self.elm1.zmien1()
-        self.elm2.zmien2()
-        self.elm3.zmien3()
     
 x = Calosc()
 
