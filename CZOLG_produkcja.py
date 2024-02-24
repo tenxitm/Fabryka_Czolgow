@@ -1,10 +1,10 @@
-class Czolg:
+class elementy_czolgu:
   def __init__(self,nazwa,numer_seryjny,cena):
     self.nazwa=nazwa
     self.numer_seryjny=numer_seryjny
     self.cena=cena
 
-class Dzialo(Czolg):
+class Dzialo(elementy_czolgu):
     def __init__(self,nazwa,numer_seryjny,cena,kaliber):
         super().__init__(nazwa,numer_seryjny,cena)
         self.kaliber=kaliber
@@ -12,7 +12,7 @@ class Dzialo(Czolg):
     def edytuj_kaliber(self,nowy_kaliber):
         self.klaiber=nowy_kaliber
 
-class Silnik(Czolg):
+class Silnik(elementy_czolgu):
     def __init___(self,nazwa,numer_seryjny,cena,moc):
         super().__init__(nazwa,numer_seryjny,cena)
         self.moc=moc
