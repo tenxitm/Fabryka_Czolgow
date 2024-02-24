@@ -24,3 +24,4 @@ class Magazyn:
 
     def zmien_cene(self, nowa_cena):
         self.cena = nowa_cena
+.
